@@ -14,6 +14,7 @@
     "prepush": "npm run test",
     "prepublishOnly": "npm run build",
     "format": "prettier --config ./.prettierrc --write \"{*.js,**/*.js,*.ts,**/*.ts,*.json,**/*.json}\"",
+    "format:check": "prettier --config ./.prettierrc --check \"{*.js,**/*.js,*.ts,**/*.ts,*.json,**/*.json}\"",
     "commitlint-circle": "commitlint-circle",
     "semantic-release": "semantic-release"
   },
